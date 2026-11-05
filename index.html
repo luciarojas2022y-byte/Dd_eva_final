@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D&D Glowy | Packs de Belleza, Uñas, Pestañas y Cejas en Perú</title>
+  <meta name="description" content="D&D Glowy - Tienda de packs de belleza en Perú. Packs para uñas, pestañas y cejas con envío a todo el país. Precios en soles. Pide por WhatsApp 912304989." />
+  <meta name="theme-color" content="#2A0920" />
+  <script>
+  /* Aplica las preferencias guardadas ANTES de pintar la página (evita parpadeos) */
+  try{
+    var __p=JSON.parse(localStorage.getItem("ddglowy_prefs_v1")||"{}"),__r=document.documentElement;
+    __r.dataset.theme=__p.theme||"dark";
+    __r.dataset.text=__p.text||"md";
+    __r.dataset.font=__p.font||"glowy";
+    __r.dataset.motion=__p.motion||((window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)?"reduce":"full");
+  }catch(e){}
+  </script>
+  <link rel="icon" href="images/logo-dd-glowy.png" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Lexend:wght@400;500;600&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+  <!-- Animaciones al hacer scroll -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ================= BARRA SUPERIOR ================= -->
+  <div class="topbar" id="topbar">
+    <div class="container topbar__inner">
+      <p><i class="fa-solid fa-truck-fast"></i> Envíos a todo el Perú &nbsp;|&nbsp; <i class="fa-solid fa-gift"></i> Delivery GRATIS en pedidos desde S/ 150</p>
+      <p class="topbar__phone"><i class="fa-brands fa-whatsapp"></i> Pedidos: <a href="https://wa.me/51912304989" target="_blank" rel="noopener">912 304 989</a></p>
+    </div>
+  </div>
+
+  <!-- ================= ENCABEZADO ================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="D&D Glowy - Inicio">
+        <img src="images/logo-dd-glowy.png" alt="Logotipo de D&D Glowy" class="brand__logo" />
+        <span class="brand__text">
+          <strong>D&amp;D Glowy</strong>
+          <small>Packs de belleza · Perú</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#packs" class="nav__link">Packs</a>
+        <a href="#promos" class="nav__link">Promos</a>
+        <a href="#beneficios" class="nav__link">Beneficios</a>
+        <a href="#opiniones" class="nav__link">Opiniones</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="cart-btn" id="cart-open" aria-label="Abrir carrito de compras">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-btn__count" id="cart-count">0</span>
+        </button>
+        <a href="https://wa.me/51912304989?text=Hola%20D%26D%20Glowy%2C%20quiero%20informaci%C3%B3n%20de%20sus%20packs%20de%20belleza%20%E2%9C%A8" target="_blank" rel="noopener" class="btn btn--primary btn--sm">
+          <i class="fa-brands fa-whatsapp"></i> Pedir ahora
+        </a>
+        <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content" data-aos="fade-right">
+          <span class="chip"><i class="fa-solid fa-crown"></i> Belleza con brillo propio</span>
+          <p class="script-tag" aria-hidden="true">Brilla a tu manera ✨</p>
+          <h1 class="hero__title">
+            Packs de belleza <span class="text-glow">D&amp;D Glowy</span>
+          </h1>
+          <p class="hero__lead">
+            Todo lo que necesitas para <strong>uñas, pestañas y cejas</strong> en un solo pack.
+            Productos originales, listos para usar y con precios en soles.
+          </p>
+          <ul class="hero__list">
+            <li><i class="fa-solid fa-circle-check"></i> Kits completos y prácticos</li>
+            <li><i class="fa-solid fa-circle-check"></i> Ideal para uso personal o emprendedoras</li>
+            <li><i class="fa-solid fa-circle-check"></i> Pide fácil por WhatsApp</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#packs" class="btn btn--primary"><i class="fa-solid fa-sparkles"></i> Ver los packs</a>
+            <a href="https://wa.me/51912304989?text=Hola%20D%26D%20Glowy%2C%20quiero%20asesor%C3%ADa%20para%20elegir%20mi%20pack%20%E2%9C%A8" target="_blank" rel="noopener" class="btn btn--ghost">
+              <i class="fa-brands fa-whatsapp"></i> Asesoría gratis
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div><strong>+1.200</strong><span>Clientas felices</span></div>
+            <div><strong>4.9<span class="star">★</span></strong><span>Valoración promedio</span></div>
+            <div><strong>24h</strong><span>Envíos en Lima</span></div>
+          </div>
+        </div>
+
+        <div class="hero__art" data-aos="zoom-in">
+          <div class="hero__logo-wrap">
+            <img src="images/logo-dd-glowy.png" alt="Logo D&D Glowy con corona rosa" class="hero__logo" />
+          </div>
+          <span class="float-tag float-tag--1"><i class="fa-solid fa-star"></i> 4.9/5</span>
+          <span class="float-tag float-tag--2"><i class="fa-solid fa-heart"></i> Hecho con amor</span>
+          <span class="float-tag float-tag--3"><i class="fa-solid fa-tags"></i> Desde S/ 49</span>
+          <span class="sparkle sparkle--1" aria-hidden="true">✦</span>
+          <span class="sparkle sparkle--2" aria-hidden="true">✦</span>
+          <span class="sparkle sparkle--3" aria-hidden="true">✦</span>
+          <span class="sparkle sparkle--4" aria-hidden="true">✦</span>
+          <span class="sparkle sparkle--5" aria-hidden="true">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CINTA DE VENTAJAS (animación 5) ================= -->
+    <div class="ticker" role="region" aria-label="Ventajas de comprar en D&D Glowy">
+      <div class="ticker__track">
+        <div class="ticker__group">
+          <span><i class="fa-solid fa-star"></i> Envíos a todo el Perú</span>
+          <span><i class="fa-solid fa-star"></i> Delivery gratis desde S/ 150</span>
+          <span><i class="fa-solid fa-star"></i> Paga con Yape o Plin</span>
+          <span><i class="fa-solid fa-star"></i> Guía paso a paso en cada pack</span>
+          <span><i class="fa-solid fa-star"></i> Asesoría gratis por WhatsApp</span>
+        </div>
+        <div class="ticker__group" aria-hidden="true">
+          <span><i class="fa-solid fa-star"></i> Envíos a todo el Perú</span>
+          <span><i class="fa-solid fa-star"></i> Delivery gratis desde S/ 150</span>
+          <span><i class="fa-solid fa-star"></i> Paga con Yape o Plin</span>
+          <span><i class="fa-solid fa-star"></i> Guía paso a paso en cada pack</span>
+          <span><i class="fa-solid fa-star"></i> Asesoría gratis por WhatsApp</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= FRANJA DE CATEGORÍAS ================= -->
+    <section class="categories">
+      <div class="container">
+        <div class="row g-3">
+        <article class="cat-card col-12 col-sm-6 col-lg-3" data-filter="belleza" data-aos="fade-up">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h3>Packs de Belleza</h3>
+          <p>Rutina completa de cuidado y maquillaje</p>
+        </article>
+        <article class="cat-card col-12 col-sm-6 col-lg-3" data-filter="unas" data-aos="fade-up" data-aos-delay="80">
+          <i class="fa-solid fa-hand-sparkles"></i>
+          <h3>Packs de Uñas</h3>
+          <p>Manicure y nail art profesional</p>
+        </article>
+        <article class="cat-card col-12 col-sm-6 col-lg-3" data-filter="pestanas" data-aos="fade-up" data-aos-delay="160">
+          <i class="fa-solid fa-eye"></i>
+          <h3>Packs de Pestañas</h3>
+          <p>Extensiones y clusters de volumen</p>
+        </article>
+        <article class="cat-card col-12 col-sm-6 col-lg-3" data-filter="cejas" data-aos="fade-up" data-aos-delay="240">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h3>Packs de Cejas</h3>
+          <p>Diseño, definición y fijación</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ASISTENTE "ENCUENTRA TU PACK IDEAL" ================= -->
+    <section class="section quiz-section" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="quiz" data-aos="fade-up">
+          <header class="section__head">
+            <span class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i> Asistente Glow</span>
+            <h2 class="section__title" id="quiz-title">Encuentra tu <span class="text-glow">pack ideal</span></h2>
+            <p class="section__sub">Responde 2 preguntas y te recomendamos el pack perfecto para ti.</p>
+          </header>
+          <div class="quiz__grid">
+            <div role="group" aria-labelledby="quiz-q1">
+              <p class="quiz__q" id="quiz-q1">1. ¿Para qué lo quieres?</p>
+              <div class="quiz__opts">
+                <button type="button" class="quiz__opt" data-goal="personal" aria-pressed="false">Uso personal</button>
+                <button type="button" class="quiz__opt" data-goal="emprender" aria-pressed="false">Mi emprendimiento</button>
+              </div>
+            </div>
+            <div role="group" aria-labelledby="quiz-q2">
+              <p class="quiz__q" id="quiz-q2">2. ¿Qué te interesa?</p>
+              <div class="quiz__opts">
+                <button type="button" class="quiz__opt" data-topic="belleza" aria-pressed="false">Belleza</button>
+                <button type="button" class="quiz__opt" data-topic="unas" aria-pressed="false">Uñas</button>
+                <button type="button" class="quiz__opt" data-topic="pestanas" aria-pressed="false">Pestañas</button>
+                <button type="button" class="quiz__opt" data-topic="cejas" aria-pressed="false">Cejas</button>
+              </div>
+            </div>
+          </div>
+          <div class="quiz__result" id="quiz-result" aria-live="polite">
+            <p class="quiz__hint">Elige una opción en cada pregunta para ver tu recomendación.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CATÁLOGO DE PACKS ================= -->
+    <section class="section" id="packs">
+      <div class="container">
+        <header class="section__head" data-aos="fade-up">
+          <span class="chip"><i class="fa-solid fa-bag-shopping"></i> Catálogo</span>
+          <h2 class="section__title">Nuestros <span class="text-glow">packs estrella</span></h2>
+          <p class="section__sub">Precios en soles peruanos (S/). Agrega tus favoritos al carrito y envía tu pedido por WhatsApp en segundos.</p>
+        </header>
+
+        <!-- Filtros -->
+        <div class="filters" id="filters" role="group" aria-label="Filtrar y ordenar packs" data-aos="fade-up">
+          <button class="filter is-active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="belleza">Belleza</button>
+          <button class="filter" data-filter="unas">Uñas</button>
+          <button class="filter" data-filter="pestanas">Pestañas</button>
+          <button class="filter" data-filter="cejas">Cejas</button>
+          <label class="filters__sort"><span>Ordenar:</span>
+            <select id="sort-select" aria-label="Ordenar packs">
+              <option value="default">Recomendados</option>
+              <option value="asc">Precio: menor a mayor</option>
+              <option value="desc">Precio: mayor a menor</option>
+              <option value="rating">Mejor valorados</option>
+            </select>
+          </label>
+          <div class="filters__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="search-input" placeholder="Buscar pack..." aria-label="Buscar pack" />
+          </div>
+        </div>
+
+        <!-- Grilla de productos -->
+        <div class="grid-products" id="products-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>
+          <i class="fa-solid fa-face-sad-tear"></i> No encontramos packs con ese nombre. Escríbenos y lo conseguimos para ti.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= PROMO + CUENTA REGRESIVA ================= -->
+    <section class="promo" id="promos">
+      <div class="container promo__inner" data-aos="zoom-in">
+        <div class="promo__text">
+          <span class="chip chip--light"><i class="fa-solid fa-bolt"></i> Oferta por tiempo limitado</span>
+          <h2>Combo Glowy Total <span class="promo__off">-25%</span></h2>
+          <p>Lleva <strong>Pack Uñas Pro + Pack Pestañas Pro + Pack Cejas Pro</strong> por un solo precio. Ideal para emprendedoras que quieren iniciar su propio estudio de belleza.</p>
+          <p class="promo__price">
+            <span class="price-old">S/ 372</span>
+            <span class="price-new">S/ 279</span>
+            <small>Precio en soles</small>
+          </p>
+          <div class="promo__cta">
+            <button class="btn btn--dark" id="add-combo"><i class="fa-solid fa-cart-plus"></i> Agregar combo al carrito</button>
+            <a href="https://wa.me/51912304989?text=Hola%20D%26D%20Glowy%2C%20quiero%20el%20Combo%20Glowy%20Total%20(S%2F%20279)%20%E2%9C%A8" target="_blank" rel="noopener" class="btn btn--light">
+              <i class="fa-brands fa-whatsapp"></i> Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="promo__timer">
+          <p>La oferta termina en:</p>
+          <div class="timer" id="timer">
+            <div><strong id="t-days">00</strong><span>Días</span></div>
+            <div><strong id="t-hours">00</strong><span>Horas</span></div>
+            <div><strong id="t-mins">00</strong><span>Min</span></div>
+            <div><strong id="t-secs">00</strong><span>Seg</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BENEFICIOS ================= -->
+    <section class="section" id="beneficios">
+      <div class="container">
+        <header class="section__head" data-aos="fade-up">
+          <span class="chip"><i class="fa-solid fa-heart"></i> ¿Por qué D&amp;D Glowy?</span>
+          <h2 class="section__title">Beneficios de <span class="text-glow">comprar con nosotras</span></h2>
+        </header>
+        <div class="benefits">
+          <article class="benefit" data-aos="fade-up">
+            <i class="fa-solid fa-shield-heart"></i>
+            <h3>Productos verificados</h3>
+            <p>Seleccionamos marcas confiables, libres de crueldad animal y seguras para tu piel.</p>
+          </article>
+          <article class="benefit" data-aos="fade-up" data-aos-delay="80">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Envío rápido</h3>
+            <p>Delivery el mismo día en Lima y envíos a provincias por Olva Courier y Shalom.</p>
+          </article>
+          <article class="benefit" data-aos="fade-up" data-aos-delay="160">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <h3>Pago fácil</h3>
+            <p>Yape, Plin, transferencia BCP o Interbank y pago contra entrega en Lima Metropolitana.</p>
+          </article>
+          <article class="benefit" data-aos="fade-up" data-aos-delay="240">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Mini tutoriales</h3>
+            <p>Cada pack incluye guía paso a paso y asesoría por WhatsApp para que te quede perfecto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OPINIONES ================= -->
+    <section class="section section--alt" id="opiniones">
+      <div class="container">
+        <header class="section__head" data-aos="fade-up">
+          <span class="chip"><i class="fa-solid fa-comment-dots"></i> Opiniones reales</span>
+          <h2 class="section__title">Nuestras clientas <span class="text-glow">brillan</span></h2>
+        </header>
+        <div class="testimonials">
+          <article class="testimonial" data-aos="fade-up">
+            <div class="testimonial__stars">★★★★★</div>
+            <p>“Compré el Pack Uñas Pro y quedé enamorada. Llegó al día siguiente en Lima y los materiales son de buena calidad.”</p>
+            <footer><span class="avatar">MR</span><span><strong>Melissa R.</strong><small>San Juan de Lurigancho</small></span></footer>
+          </article>
+          <article class="testimonial" data-aos="fade-up" data-aos-delay="80">
+            <div class="testimonial__stars">★★★★★</div>
+            <p>“El pack de pestañas es súper completo, pude empezar a atender a mis primeras clientas. ¡Gracias D&amp;D Glowy!”</p>
+            <footer><span class="avatar">KC</span><span><strong>Karla C.</strong><small>Trujillo</small></span></footer>
+          </article>
+          <article class="testimonial" data-aos="fade-up" data-aos-delay="160">
+            <div class="testimonial__stars">★★★★☆</div>
+            <p>“Me encantó el pack de cejas, muy fácil de usar y el tono es natural. La atención por WhatsApp fue rapidísima.”</p>
+            <footer><span class="avatar">AP</span><span><strong>Andrea P.</strong><small>Arequipa</small></span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <header class="section__head" data-aos="fade-up">
+          <span class="chip"><i class="fa-solid fa-address-book"></i> Contacto</span>
+          <h2 class="section__title">Hablemos por <span class="text-glow">WhatsApp</span></h2>
+          <p class="section__sub">Atendemos de lunes a sábado de 9:00 a.m. a 8:00 p.m. Resolvemos tus dudas y tomamos tu pedido al instante.</p>
+        </header>
+
+        <div class="contact">
+          <article class="contact__card" data-aos="fade-up">
+            <i class="fa-brands fa-whatsapp"></i>
+            <h3>WhatsApp / Pedidos</h3>
+            <p><a href="https://wa.me/51912304989" target="_blank" rel="noopener">+51 912 304 989</a></p>
+            <small>Respuesta en menos de 10 minutos</small>
+          </article>
+          <article class="contact__card" data-aos="fade-up" data-aos-delay="80">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Correo</h3>
+            <p><a href="mailto:ventas@ddglowy.pe">ventas@ddglowy.pe</a></p>
+            <small>Cotizaciones y ventas al por mayor</small>
+          </article>
+          <article class="contact__card" data-aos="fade-up" data-aos-delay="160">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Ubicación</h3>
+            <p>Av. Los Glow 123, Lima – Perú</p>
+            <small>Atención con cita previa</small>
+          </article>
+        </div>
+
+        <div class="contact__banner" id="como-comprar" data-aos="zoom-in">
+          <div>
+            <h3>¿Lista para brillar? ✨</h3>
+            <p>Escríbenos y te armamos un pack a tu medida con precio especial.</p>
+          </div>
+          <a href="https://wa.me/51912304989?text=Hola%20D%26D%20Glowy%2C%20quiero%20armar%20mi%20pack%20personalizado%20%E2%9C%A8" target="_blank" rel="noopener" class="btn btn--dark">
+            <i class="fa-brands fa-whatsapp"></i> Escribir al 912 304 989
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="images/logo-dd-glowy.png" alt="D&D Glowy" />
+        <p>Packs de belleza, uñas, pestañas y cejas con envío a todo el Perú. Brilla a tu manera.</p>
+      </div>
+      <nav class="footer__col" aria-label="Enlaces de la tienda">
+        <h4>Tienda</h4>
+        <a href="#packs">Packs de belleza</a>
+        <a href="#packs">Packs de uñas</a>
+        <a href="#packs">Packs de pestañas</a>
+        <a href="#packs">Packs de cejas</a>
+      </nav>
+      <nav class="footer__col" aria-label="Enlaces de ayuda">
+        <h4>Ayuda</h4>
+        <a href="#beneficios">Métodos de pago</a>
+        <a href="#beneficios">Envíos y entregas</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="footer__col">
+        <h4>Síguenos</h4>
+        <div class="socials">
+          <a href="https://wa.me/51912304989" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#contacto" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#contacto" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#contacto" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <p class="footer__pay"><i class="fa-solid fa-mobile-screen"></i> Yape · Plin · BCP · Interbank</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> D&amp;D Glowy. Todos los derechos reservados. Hecho en Perú 🇵🇪</p>
+      <p>Precios expresados en soles peruanos (S/) e incluyen IGV.</p>
+    </div>
+  </footer>
+
+  <!-- ================= BOTÓN FLOTANTE WHATSAPP ================= -->
+  <a href="https://wa.me/51912304989?text=Hola%20D%26D%20Glowy%2C%20quiero%20hacer%20un%20pedido%20%E2%9C%A8" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escribir por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Escríbenos</span>
+  </a>
+
+  <!-- ================= CARRITO LATERAL ================= -->
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart" id="cart" aria-label="Carrito de compras" aria-hidden="true" inert>
+    <header class="cart__head">
+      <h2><i class="fa-solid fa-bag-shopping"></i> Tu carrito</h2>
+      <button class="cart__close" id="cart-close" aria-label="Cerrar carrito"><i class="fa-solid fa-xmark"></i></button>
+    </header>
+    <div class="cart__body" id="cart-items"></div>
+    <footer class="cart__foot">
+      <div class="cart__row"><span>Subtotal</span><strong id="cart-subtotal">S/ 0.00</strong></div>
+      <div class="cart__row"><span>Envío</span><strong id="cart-shipping">Por calcular</strong></div>
+      <div class="cart__row cart__row--total"><span>Total</span><strong id="cart-total">S/ 0.00</strong></div>
+      <label class="cart__field">
+        <span>Tu nombre <em class="req">*</em></span>
+        <input type="text" id="customer-name" placeholder="Ej. Melissa Rojas" />
+      </label>
+      <label class="cart__field">
+        <span>Distrito / Ciudad de entrega <em class="req">*</em></span>
+        <input type="text" id="customer-place" placeholder="Ej. San Juan de Lurigancho, Lima" />
+      </label>
+      <button class="btn btn--whatsapp btn--block" id="send-order">
+        <i class="fa-brands fa-whatsapp"></i> Finalizar compra por WhatsApp
+      </button>
+      <button class="cart__clear" id="clear-cart"><i class="fa-solid fa-trash-can"></i> Vaciar carrito</button>
+      <p class="cart__note">Al finalizar, se abrirá WhatsApp con el detalle de tu pedido listo para confirmar.</p>
+    </footer>
+  </aside>
+
+  <!-- ================= VENTANA DE CONFIRMACIÓN ================= -->
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <span class="modal__icon"><i class="fa-solid fa-circle-check"></i></span>
+      <h2 id="modal-title">¡Pedido listo! ✨</h2>
+      <p>Se abrió <strong>WhatsApp</strong> con el detalle de tu pedido. Envíanos el mensaje para <strong>finalizar la compra</strong> y coordinamos tu entrega.</p>
+      <div class="modal__actions">
+        <a class="btn btn--whatsapp" id="modal-wa" href="https://wa.me/51912304989" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Abrir WhatsApp de nuevo
+        </a>
+        <button class="btn btn--ghost" id="modal-close"><i class="fa-solid fa-check"></i> Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PANEL DE CONFIGURACIÓN DEL USUARIO ================= -->
+  <button class="settings-btn" id="settings-open" type="button" aria-label="Abrir configuración del sitio" aria-expanded="false" aria-controls="settings"><i class="fa-solid fa-sliders"></i></button>
+  <section class="settings" id="settings" role="dialog" aria-labelledby="settings-title" inert>
+    <div class="settings__head">
+      <h2 id="settings-title"><i class="fa-solid fa-sliders"></i> Configuración</h2>
+      <button class="settings__close" id="settings-close" type="button" aria-label="Cerrar configuración"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <fieldset>
+      <legend>Tema de color</legend>
+      <div class="seg">
+        <label><input type="radio" name="theme" value="dark" data-pref="theme" /><span><i class="fa-solid fa-moon"></i>Glow</span></label>
+        <label><input type="radio" name="theme" value="light" data-pref="theme" /><span><i class="fa-solid fa-sun"></i>Claro</span></label>
+        <label><input type="radio" name="theme" value="contrast" data-pref="theme" /><span><i class="fa-solid fa-circle-half-stroke"></i>Alto contraste</span></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Tamaño del texto</legend>
+      <div class="seg">
+        <label><input type="radio" name="text" value="sm" data-pref="text" /><span>A−</span></label>
+        <label><input type="radio" name="text" value="md" data-pref="text" /><span>A</span></label>
+        <label><input type="radio" name="text" value="lg" data-pref="text" /><span>A+</span></label>
+        <label><input type="radio" name="text" value="xl" data-pref="text" /><span>A++</span></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Tipografía</legend>
+      <div class="seg">
+        <label><input type="radio" name="font" value="glowy" data-pref="font" /><span>D&amp;D Glowy</span></label>
+        <label><input type="radio" name="font" value="legible" data-pref="font" /><span>Fácil de leer</span></label>
+      </div>
+    </fieldset>
+    <label class="switch"><span>Reducir animaciones</span><input type="checkbox" role="switch" data-pref="motion" /><span class="switch__track" aria-hidden="true"></span></label>
+    <button class="btn btn--ghost btn--sm btn--block" id="settings-reset" type="button"><i class="fa-solid fa-rotate-left"></i> Restablecer</button>
+  </section>
+
+  <!-- Aviso flotante -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Botón volver arriba -->
+  <button class="to-top" id="to-top" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="JS/products.js" defer></script>
+  <script src="JS/main.js" defer></script>
+</body>
+</html>
